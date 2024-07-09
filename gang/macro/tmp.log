@@ -1,0 +1,22 @@
+`include "aaa.v"
+module bbb(c,d,e,out);
+
+  input  c,d,e;
+  output result;
+  wire out_a;
+  wire result;
+
+  aaa aaa(.a(c),.b(d),.result(out_a));
+  assign out = e & result_a;
+endmodule
+
+
+module ccc(a,b,out);
+
+  input  a,b;
+  output out;
+  wire out;
+
+  assign out = a ^ b;
+endmodule
+

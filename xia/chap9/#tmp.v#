@@ -1,0 +1,4 @@
+
+    always begin 
+        @(posedge clock) -> ec1; 
+    

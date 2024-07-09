@@ -1,0 +1,114 @@
+EXE=./stagira.exe
+
+echo Note: RISC - CPU
+echo
+echo ${EXE}  -print test/RISC-CPU/ysyx_210000.v
+${EXE} -print test/RISC-CPU/ysyx_210000.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210013.v
+${EXE} -print test/RISC-CPU/ysyx_210013.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210092.v
+${EXE} -print test/RISC-CPU/ysyx_210092.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210101.v
+${EXE} -print test/RISC-CPU/ysyx_210101.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210128.v
+${EXE} -print test/RISC-CPU/ysyx_210128.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210133.v
+${EXE} -print test/RISC-CPU/ysyx_210133.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210134.v
+${EXE} -print test/RISC-CPU/ysyx_210134.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210152.v
+${EXE} -print test/RISC-CPU/ysyx_210152.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210184.v
+${EXE} -print test/RISC-CPU/ysyx_210184.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210191.v
+${EXE} -print test/RISC-CPU/ysyx_210191.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210232.v
+${EXE} -print test/RISC-CPU/ysyx_210232.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210247.v
+${EXE} -print test/RISC-CPU/ysyx_210247.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210285.v
+${EXE} -print test/RISC-CPU/ysyx_210285.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210295.v
+${EXE} -print test/RISC-CPU/ysyx_210295.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210302.v
+${EXE} -print test/RISC-CPU/ysyx_210302.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210313.v
+${EXE} -print test/RISC-CPU/ysyx_210313.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210324.v
+${EXE} -print test/RISC-CPU/ysyx_210324.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210326.v
+${EXE} -print test/RISC-CPU/ysyx_210326.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210413.v
+${EXE} -print test/RISC-CPU/ysyx_210413.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210428.v
+${EXE} -print test/RISC-CPU/ysyx_210428.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210438.v
+${EXE} -print test/RISC-CPU/ysyx_210438.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210456.v
+${EXE} -print test/RISC-CPU/ysyx_210456.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210457.v
+${EXE} -print test/RISC-CPU/ysyx_210457.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210458.v
+${EXE} -print test/RISC-CPU/ysyx_210458.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210479.v
+${EXE} -print test/RISC-CPU/ysyx_210479.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210528.v
+${EXE} -print test/RISC-CPU/ysyx_210528.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210539.v
+${EXE} -print test/RISC-CPU/ysyx_210539.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210544.v
+${EXE} -print test/RISC-CPU/ysyx_210544.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210555.v
+${EXE} -print test/RISC-CPU/ysyx_210555.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210574.v
+${EXE} -print test/RISC-CPU/ysyx_210574.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210576.v
+${EXE} -print test/RISC-CPU/ysyx_210576.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210596.v
+${EXE} -print test/RISC-CPU/ysyx_210596.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210611.v
+${EXE} -print test/RISC-CPU/ysyx_210611.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210669.v
+${EXE} -print test/RISC-CPU/ysyx_210669.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210727.v
+${EXE} -print test/RISC-CPU/ysyx_210727.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210746.v
+${EXE} -print test/RISC-CPU/ysyx_210746.v
+
+echo ${EXE}  -print test/RISC-CPU/ysyx_210760.v
+${EXE} -print test/RISC-CPU/ysyx_210760.v

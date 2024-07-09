@@ -1,0 +1,20 @@
+
+echo
+echo Note: examples under test/gang
+echo
+echo Note: interleaved define and include macros 
+echo
+echo Note: include macro turned off by default
+echo
+echo ./egg/vsv test/gang/macro/bbb.v 
+./egg/vsv test/gang/macro/bbb.v 
+echo
+echo Note: include macro turned on by option -module
+echo
+echo ./egg/vsv test/gang/macro/bbb.v 
+./egg/vsv test/gang/macro/bbb.v 
+echo
+echo Note: macro body has parenthesis
+echo 
+echo ./egg/vsv test/gang/macro/paren.v 
+./egg/vsv test/gang/macro/paren.v 

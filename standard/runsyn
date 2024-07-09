@@ -1,0 +1,38 @@
+EXE=./stagira.exe
+chap4=syn/chap4/
+
+echo
+echo 这是一个standard文件逻辑综合的测试脚本文件
+echo
+echo chap4的测试：
+echo
+echo ${EXE} -synthesis standard/chap4/page11.v
+${EXE} -synthesis standard/chap4/page11.v
+echo
+echo
+echo ${EXE} -synthesis standard/chap4/page24.v
+${EXE} -synthesis standard/chap4/page24.v
+echo
+echo
+echo ${EXE} -synthesis standard/chap4/page33.v
+${EXE} -synthesis standard/chap4/page33.v
+echo
+echo
+echo ${EXE} -synthesis standard/chap4/page35.v
+${EXE} -synthesis standard/chap4/page35.v
+echo
+echo
+echo ${EXE} -synthesis standard/chap4/page37.v
+${EXE} -synthesis standard/chap4/page37.v
+echo
+echo
+echo ${EXE} -synthesis standard/chap4/page39.v
+${EXE} -synthesis standard/chap4/page39v
+echo
+
+echo
+echo chap5的测试：
+echo
+echo ${EXE} -synthesis standard/chap4/page11.v
+${EXE} -synthesis standard/chap4/page11.v
+echo

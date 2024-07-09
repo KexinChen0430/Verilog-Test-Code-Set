@@ -1,0 +1,151 @@
+EXE=./stagira.exe
+
+echo ${EXE} test/xiangshan/BankBinder.v -synthesis -module
+${EXE} test/xiangshan/BankBinder.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/TLXbar.v -synthesis -module
+${EXE} test/xiangshan/TLXbar.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/TLXbar_1.v -synthesis -module
+${EXE} test/xiangshan/TLXbar_1.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/XbarCircuit.v -synthesis -module
+${EXE} test/xiangshan/XbarCircuit.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/BankedXbar.v -synthesis -module
+${EXE} test/xiangshan/BankedXbar.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/TLXbar_2.v -synthesis -module
+${EXE} test/xiangshan/TLXbar_2.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/TLXbar_3.v -synthesis -module
+${EXE} test/xiangshan/TLXbar_3.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/Queue.v -synthesis -module
+${EXE} test/xiangshan/Queue.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/TLXbar_3.v -synthesis -module
+${EXE} test/xiangshan/TLXbar_3.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/Queue_1.v -synthesis -module
+${EXE} test/xiangshan/Queue_1.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/TLBufferModule.v -synthesis -module
+${EXE} test/xiangshan/TLBufferModule.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/TLEdgeBuffer.v -synthesis -module
+${EXE} test/xiangshan/TLEdgeBuffer.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/XbarCircuit_2.v -synthesis -module
+${EXE} test/xiangshan/XbarCircuit_2.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/BinaryArbiter.v -synthesis -module
+${EXE} test/xiangshan/BinaryArbiter.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/Queue_2.v -synthesis -module
+${EXE} test/xiangshan/Queue_2.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/Queue_3.v -synthesis -module
+${EXE} test/xiangshan/Queue_3.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/TLBufferModule_1.v -synthesis -module
+${EXE} test/xiangshan/TLBufferModule_1.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/TLEdgeBuffer_1.v -synthesis -module
+${EXE} test/xiangshan/TLEdgeBuffer_1.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/IDPool.v -synthesis -module
+${EXE} test/xiangshan/IDPool.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/Queue_4.v -synthesis -module
+${EXE} test/xiangshan/Queue_4.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/TLEdgeBuffer_1.v -synthesis -module
+${EXE} test/xiangshan/TLEdgeBuffer_1.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/TLCacheCork.v -synthesis -module
+${EXE} test/xiangshan/TLCacheCork.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/Repeater.v -synthesis -module
+${EXE} test/xiangshan/Repeater.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/TLWidthWidget.v -synthesis -module
+${EXE} test/xiangshan/TLWidthWidget.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/Queue_12.v -synthesis -module
+${EXE} test/xiangshan/Queue_12.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/Queue_13.v -synthesis -module
+${EXE} test/xiangshan/Queue_13.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/TLBuffer.v -synthesis -module
+${EXE} test/xiangshan/TLBuffer.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/TLBuffer.v -synthesis -module
+${EXE} test/xiangshan/TLBuffer.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/TLBuffer.v -synthesis -module
+${EXE} test/xiangshan/TLBuffer.v -synthesis -module
+echo
+echo
+
+echo ${EXE} test/xiangshan/TLBuffer.v -synthesis -module
+${EXE} test/xiangshan/TLBuffer.v -synthesis -module
+echo
+echo

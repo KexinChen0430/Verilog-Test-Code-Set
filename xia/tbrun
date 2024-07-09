@@ -1,0 +1,8 @@
+echo ## Testbench for test/xia
+echo
+echo Note:  testbench generation demonstration examples:
+echo
+echo Note:  a combinatorial circuit
+echo ./vtest test/xia/chap3/add.v
+./vtest test/xia/chap3/add.v
+echo

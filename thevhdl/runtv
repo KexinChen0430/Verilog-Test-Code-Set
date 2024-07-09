@@ -1,0 +1,14 @@
+EXE=./egg/vsv
+
+echo
+echo Note: Examples from The Verilog Hardware Description Language
+echo
+echo Note: Examples of module head containing parameter and inputs.
+echo
+echo ${EXE} test/thevhdl/chap2/ex2_3.v 
+${EXE} test/thevhdl/chap2/ex2_3.v 
+echo
+echo Note: generate and parameters in module head
+echo
+echo ${EXE} test/thevhdl/chap5/ex5_7.v 
+${EXE} test/thevhdl/chap5/ex5_7.v 

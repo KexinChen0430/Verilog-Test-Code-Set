@@ -1,0 +1,336 @@
+EXE=./egg/vsv
+
+echo Note: constants
+echo
+echo ${EXE}  test/xia/chap3/add.v
+${EXE}  test/xia/chap3/add.v
+echo
+echo ${EXE}  test/xia/chap3/compare.v
+${EXE}  test/xia/chap3/compare.v
+echo
+echo ${EXE}   test/xia/chap3/trist2.v
+${EXE}  test/xia/chap3/trist2.v
+echo
+echo Note: negation sign
+echo
+echo ${EXE}   test/xia/chap3/constmod.v
+${EXE}  test/xia/chap3/constmod.v
+echo
+echo Note: module parameter value assignment
+echo Note: some examples are similar to those in test/standard
+echo
+echo ${EXE}   test/xia/chap3/decode.v
+${EXE}  test/xia/chap3/decode.v
+echo
+echo ${EXE}   test/xia/chap3/page23.v
+${EXE}   test/xia/chap3/page23.v
+echo
+echo ${EXE}   test/xia/chap3/page29.v
+${EXE}   test/xia/chap3/page29.v
+echo
+echo ${EXE}   test/xia/chap3/page34.v
+${EXE}   test/xia/chap3/page34.v
+echo
+echo Note: shift expression
+echo
+echo ${EXE}   test/xia/chap3/page43.v
+${EXE}   test/xia/chap3/page43.v
+echo
+echo Note: traffic light program in page 47 is similar to test/standard/
+echo Note: factorial in page49 is similar to standard, but adds $display.
+echo
+echo ${EXE}  test/xia/chap3/page49.v
+${EXE}   test/xia/chap3/page49.v
+echo
+echo Note: string with various escape chars, $display.
+echo
+echo ${EXE}   test/xia/chap3/page51.v
+${EXE}   test/xia/chap3/page51.v
+echo
+echo "Note: $monitor, $time, $realtime, empty argument,  timescale"
+echo "Note: page 56, $readmemh"
+echo
+echo ${EXE}   test/xia/chap3/page53.v
+${EXE}   test/xia/chap3/page53.v
+echo
+echo "Note: $random, %, for loop "
+echo
+echo ${EXE}   test/xia/chap3/page56.v
+${EXE}   test/xia/chap3/page56.v
+echo
+echo Note: recursive define macros below declarations.
+echo
+echo ${EXE}  test/xia/chap3/page58.v
+${EXE}  test/xia/chap3/page58.v
+echo
+echo Note: gate instancation with delay.
+echo
+echo ${EXE}  test/xia/chap4/page76.v
+${EXE}  test/xia/chap4/page76.v
+echo
+echo Note: event declaration and event trigger, testbench.
+echo Note: macro with line comments
+echo
+echo ${EXE}  test/xia/chap4/page80.v
+${EXE}  test/xia/chap4/page80.v
+echo
+echo Note: instanciation of dff
+echo
+echo ${EXE}  test/xia/chap4/page82.v
+${EXE}  test/xia/chap4/page82.v
+echo
+echo Note: real number delay in wire declaration
+echo
+echo ${EXE}  test/xia/chap4/page83.v
+${EXE}  test/xia/chap4/page83.v
+echo
+echo Note: continue for a RISC example
+echo
+echo ${EXE}  test/xia/chap4/page84.v
+${EXE}  test/xia/chap4/page84.v
+echo
+echo ${EXE}  test/xia/chap4/page85.v 
+${EXE}  test/xia/chap4/page85.v 
+echo
+echo Note: control module of the RISC example
+echo Note: print if statements after newlines
+echo Note: long module arguments, long conditions, pretty printing required.
+echo
+echo ${EXE}  test/xia/chap4/page87.v 
+${EXE}  test/xia/chap4/page87.v 
+echo
+echo ${EXE}  test/xia/chap4/page88.v 
+${EXE}  test/xia/chap4/page88.v 
+echo
+echo Note: top level module
+echo
+echo ${EXE}  test/xia/chap4/page89.v 
+${EXE}  test/xia/chap4/page89.v
+echo
+echo Note: chapter 5, adder circuits
+echo
+echo ${EXE}  test/xia/chap5/page95.v
+${EXE}  test/xia/chap5/page95.v
+echo
+echo Note: multiplication
+echo
+echo ${EXE}  test/xia/chap5/page95.v
+${EXE}  test/xia/chap5/page95.v
+echo
+echo ${EXE}  test/xia/chap5/page98.v
+${EXE}  test/xia/chap5/page98.v
+echo
+echo ${EXE}  test/xia/chap5/page100.v
+${EXE}  test/xia/chap5/page100.v
+echo
+echo Note: original file failed in Questa Sim compilation
+echo "since 1) nCS is not declared in module inputs;"
+echo "      2) width is defined below its usage."
+echo
+echo ${EXE} test/xia/chap5/page101.v
+${EXE}  test/xia/chap5/page101.v
+echo
+echo Note: syntax error fixed version so that testbench can be generated.
+echo
+echo ${EXE}  test/xia/chap5/page101a.v
+${EXE}  test/xia/chap5/page101a.v
+echo
+echo Testbench: test with long list of input signals
+echo
+echo ${EXE} test/xia/chap5/page101a.v
+${EXE} test/xia/chap5/page101a.v
+echo
+echo Note: sort test data by a list of fields
+echo
+echo ${EXE} test/xia/chap5/page101a.v 
+${EXE} test/xia/chap5/page101a.v
+echo
+echo Note: bus and inout example
+echo
+echo ${EXE}  test/xia/chap5/page102.v
+${EXE}  test/xia/chap5/page102.v
+echo
+echo Testbench: inout signal and bus test
+echo
+echo ${EXE}  test/xia/chap5/page102.v
+${EXE}  test/xia/chap5/page102.v
+echo
+echo ${EXE}  test/xia/chap6/page108.v
+${EXE}  test/xia/chap6/page108.v
+echo
+echo
+echo ${EXE}  test/xia/chap7/page115.v
+${EXE}  test/xia/chap7/page115.v
+echo
+echo
+echo ${EXE} test/xia/chap7/page116.v
+${EXE}  test/xia/chap7/page116.v
+echo
+echo Note: long condition expression, pretty priting required.
+echo
+echo ${EXE}  test/xia/chap7/page117.v
+${EXE}  test/xia/chap7/page117.v
+echo
+echo Note: state machine control
+echo
+echo ${EXE}  test/xia/chap7/page118.v 
+${EXE}  test/xia/chap7/page118.v 
+echo
+echo Note: space shuttle
+echo
+echo ${EXE}  test/xia/chap7/page120.v
+${EXE}  test/xia/chap7/page120.v
+echo
+echo Note: synthesible adder
+echo
+echo ${EXE}  test/xia/chap7/page122.v
+${EXE}  test/xia/chap7/page122.v
+echo
+echo Note: small alu and a sorter.
+echo
+echo ${EXE}  test/xia/chap7/page123.v
+${EXE}  test/xia/chap7/page123.v
+echo
+echo Note: compare, decode and 3 encoders.
+echo
+echo ${EXE}  test/xia/chap7/page124.v
+${EXE}  test/xia/chap7/page124.v
+echo
+echo Note: 3 mux and a parity
+echo 
+echo ${EXE}  test/xia/chap7/page126.v
+${EXE}  test/xia/chap7/page126.v
+echo
+echo Note: trist and its usage
+echo
+echo ${EXE}  test/xia/chap7/page127.v
+${EXE}  test/xia/chap7/page127.v
+echo
+echo Note: latches, shifter, counters.
+echo "Note: conditional assignements, unary and & "
+echo
+echo ${EXE} test/xia/chap7/page128.v
+${EXE}  test/xia/chap7/page128.v
+echo
+echo Note: sequential circuits, reset.
+echo
+echo ${EXE}  test/xia/chap7/page130.v
+${EXE}  test/xia/chap7/page130.v
+echo
+echo
+echo ${EXE} test/xia/chap7/page131.v
+${EXE}  test/xia/chap7/page131.v
+echo
+echo Note: race
+echo
+echo ${EXE}  test/xia/chap7/page133.v
+${EXE}  test/xia/chap7/page133.v
+echo
+echo Note: self trigger
+echo
+echo ${EXE}  test/xia/chap7/page135.v
+${EXE} test/xia/chap7/page135.v
+echo
+echo Note: a set of shift registers, right or wrong.
+echo
+echo ${EXE}  test/xia/chap7/page136.v
+${EXE}  test/xia/chap7/page136.v
+echo
+echo ${EXE}  test/xia/chap7/page137.v
+${EXE}  test/xia/chap7/page137.v
+echo
+echo ${EXE}  test/xia/chap7/page139.v
+${EXE}  test/xia/chap7/page139.v
+echo
+echo ${EXE}  test/xia/chap7/page140.v
+${EXE}  test/xia/chap7/page140.v
+echo
+echo ${EXE}  test/xia/chap7/page142.v
+${EXE}  test/xia/chap7/page142.v
+echo
+echo ${EXE}  test/xia/chap7/page143.v
+${EXE}  test/xia/chap7/page143.v
+echo
+echo ${EXE}  test/xia/chap7/page144.v
+${EXE}  test/xia/chap7/page144.v
+echo
+echo "Note: $strobe"
+echo
+echo ${EXE} test/xia/chap7/page146.v
+${EXE}  test/xia/chap7/page146.v
+echo
+echo
+echo ${EXE}  test/xia/chap7/page148.v
+${EXE}  test/xia/chap7/page148.v
+echo
+echo Note: test bench of page148
+echo
+echo ${EXE}  test/xia/chap7/page149.v
+${EXE}  test/xia/chap7/page149.v
+echo
+echo Note: EEPROM, event-delay-assignment
+echo "Note:  @(negedge scl) #100 sda_buf[7] = 1; "
+echo
+echo ${EXE}  test/xia/chap7/page153.v
+${EXE}  test/xia/chap7/page153.v
+echo
+echo Note: EEPROM synthesible
+echo
+echo ${EXE}  test/xia/chap7/page157.v
+${EXE}  test/xia/chap7/page157.v
+echo
+echo Note: EEPROM signals module
+echo
+echo ${EXE}  test/xia/chap7/page167.v
+${EXE}  test/xia/chap7/page167.v
+echo
+echo Note: load all include files
+echo
+echo ${EXE}  test/xia/chap7/page167.v 
+${EXE}  test/xia/chap7/page167.v 
+echo
+echo Note: chap8 -- RISC CPU design
+echo
+echo ${EXE}  test/xia/chap8/page173.v
+${EXE}  test/xia/chap8/page173.v
+echo
+echo ${EXE}  test/xia/chap8/page175.v
+${EXE}  test/xia/chap8/page175.v
+echo
+echo ${EXE}  test/xia/chap8/page176.v
+${EXE}  test/xia/chap8/page176.v
+echo
+echo ${EXE}  test/xia/chap8/page179.v 
+${EXE}  test/xia/chap8/page179.v 
+echo
+echo Note: state machine
+echo Note: use maxcond to change lines for long conditional expressions
+echo Note: option -noparen turns of parenthesis printing around comparasionos
+echo
+echo ${EXE}  test/xia/chap8/page182.v 
+${EXE}  test/xia/chap8/page182.v 
+echo
+echo Note: case label with long bit numbers
+echo
+echo ${EXE}  test/xia/chap8/page186.v 
+${EXE}  test/xia/chap8/page186.v 
+echo
+echo Note: testbench for RISC cpu
+echo
+echo ${EXE}  test/xia/chap8/page190.v 
+${EXE}  test/xia/chap8/page190.v 
+echo
+echo Note: chap9 virtual devices
+echo
+echo Note:  test/xia/chap9/page216.v is same as test/xia/ex11/adc.v
+echo
+echo Note: I8251A, 890 lines
+echo
+echo ${EXE}  test/xia/chap9/page219.v 
+${EXE}  test/xia/chap9/page219.v 
+echo
+echo Note: Intel 8085A simulation, 1179 lines
+echo "Note: @ec1 @ec1 @ec2  sodff = acc[7];"
+echo
+echo ${EXE}  test/xia/chap9/page239.v 
+${EXE}  test/xia/chap9/page239.v 

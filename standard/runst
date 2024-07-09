@@ -1,0 +1,574 @@
+EXE=./egg/vsv
+
+echo
+echo Note: Examples from Verilog Standard 2006
+echo
+echo Note: generate,genvar,block label, unary ^
+echo
+echo
+echo Note: numbers with spaces such as 'h x, 'h 3x etc.
+echo
+echo ${EXE} test/standard/chap4/page11.v  
+${EXE} test/standard/chap4/page11.v  
+echo
+echo Note: trireg, strength, signed, wand, negative range.
+echo 
+echo ${EXE} test/standard/chap4/page24.v  
+${EXE} test/standard/chap4/page24.v  
+echo
+echo Note: time, realtime
+echo
+echo ${EXE} test/standard/chap4/page33.v  
+${EXE} test/standard/chap4/page33.v  
+echo 
+echo Note: two dimensional array declaration and assignments.
+echo
+echo ${EXE} test/standard/chap4/page35.v  
+${EXE} test/standard/chap4/page35.v  
+echo
+echo Note: parameter with integer,real arguments.
+echo
+echo ${EXE} test/standard/chap4/page37.v  
+${EXE} test/standard/chap4/page37.v  
+echo
+echo Note: specparam, specify, endspecify
+echo
+echo ${EXE} test/standard/chap4/page39.v  
+${EXE} test/standard/chap4/page39.v  
+echo
+echo Note: signed number base such as sd12.
+echo
+echo ${EXE} test/standard/chap5/page44.v  
+${EXE} test/standard/chap5/page44.v  
+echo 
+echo Note:  arithmetic shift and logic shift
+echo
+echo ${EXE} test/standard/chap5/page53.v  
+${EXE} test/standard/chap5/page53.v  
+echo
+echo Note: concatenation with duplication expression and $displayb.
+echo
+echo ${EXE} test/standard/chap5/page55.v  
+${EXE} test/standard/chap5/page55.v  
+echo
+echo Note: range of +: and -:
+echo 
+echo ${EXE} test/standard/chap5/page56.v  
+${EXE} test/standard/chap5/page56.v  
+echo
+echo Note: array range of any number of dimensions, and
+echo array accesses of arbitrary number of indexes followed by a range.
+echo
+echo ${EXE} test/standard/chap5/page58.v  
+${EXE} test/standard/chap5/page58.v  
+echo
+echo Note: string constant
+echo
+echo ${EXE} test/standard/chap5/page59.v  
+${EXE} test/standard/chap5/page59.v  
+echo
+echo Note: expressions, $unsigned, $signed.
+echo
+echo ${EXE} test/standard/chap5/page64.v  
+${EXE} test/standard/chap5/page64.v  
+echo
+echo Note: comma seperated multiple assignments, pretty printing.
+echo
+echo ${EXE} test/standard/chap6/page70.v  
+${EXE} test/standard/chap6/page70.v  
+echo 
+echo Note: bufif0
+echo
+echo ${EXE} test/standard/chap7/page78.v  
+${EXE} test/standard/chap7/page78.v  
+echo
+echo Note: module invokation with var-range argument.
+echo
+echo ${EXE} test/standard/chap7/page79.v  
+${EXE} test/standard/chap7/page79.v  
+echo
+echo Note: user defined primitive table -- combinatorial logic
+echo
+echo ${EXE}   test/standard/chap8/page109.v
+${EXE}   test/standard/chap8/page109.v
+echo
+echo Note: UDP with states and edge up , edge down.
+echo
+echo ${EXE}   test/standard/chap8/page110.v
+${EXE}   test/standard/chap8/page110.v
+echo
+echo ${EXE}   test/standard/chap8/page111.v
+${EXE}   test/standard/chap8/page111.v
+echo
+echo Note: UDP with module
+echo
+echo ${EXE}   test/standard/chap8/page112.v
+${EXE}   test/standard/chap8/page112.v
+echo
+echo Note: UDP instanciation with delay
+echo
+echo ${EXE}   test/standard/chap8/page114.v
+${EXE}   test/standard/chap8/page114.v
+echo
+echo Note: behavior model
+echo
+echo ${EXE} test/standard/chap9/page116.v  
+${EXE} test/standard/chap9/page116.v  
+echo
+echo Note: multiple index left side.
+echo Note: delay in assignment: a = #d b, a <= # b;
+echo
+echo ${EXE} test/standard/chap9/page120.v  
+${EXE} test/standard/chap9/page120.v  
+echo
+echo Note: $monitor, $time, $finish
+echo
+echo ${EXE} test/standard/chap9/page121.v  
+${EXE} test/standard/chap9/page121.v  
+echo
+echo "Note: r1 <= #(i*10) i[0]"
+echo
+echo ${EXE} test/standard/chap9/page122.v   
+${EXE} test/standard/chap9/page122.v  
+echo
+echo Note: deassign
+echo
+echo ${EXE} test/standard/chap9/page123.v  
+${EXE} test/standard/chap9/page123.v  
+echo
+echo Note: force, release, $stime
+echo
+echo ${EXE} test/standard/chap9/page124.v  
+${EXE} test/standard/chap9/page124.v  
+echo
+echo Note: comma seperated multiple parameter, if-then-else.
+echo
+echo ${EXE} test/standard/chap9/page126.v  
+${EXE} test/standard/chap9/page126.v  
+echo
+echo "Note: in case statement, colon(:) after default is optional."
+echo
+echo ${EXE} test/standard/chap9/page127.v  
+${EXE} test/standard/chap9/page127.v  
+echo
+echo "Note: question mark(?) in case label, casex,casez."
+echo
+echo ${EXE} test/standard/chap9/page129.v  
+${EXE} test/standard/chap9/page129.v  
+echo
+echo Note: repeat loop and while loop
+echo
+echo ${EXE} test/standard/chap9/page130.v  
+${EXE} test/standard/chap9/page130.v  
+echo
+echo Note: delay control
+echo
+echo ${EXE} test/standard/chap9/page132.v  
+${EXE} test/standard/chap9/page132.v  
+echo
+echo Note: event control on assignments and forever.
+echo
+echo ${EXE} test/standard/chap9/page133.v  
+${EXE} test/standard/chap9/page133.v  
+echo
+echo Note: event operators: comma and or.
+echo
+echo ${EXE} test/standard/chap9/page134.v  
+${EXE} test/standard/chap9/page134.v  
+echo
+echo Note: "special events: @*, @(*), @(i)"
+echo
+echo ${EXE} test/standard/chap9/page135.v  
+${EXE} test/standard/chap9/page135.v  
+echo
+echo Note: wait statement
+echo
+echo ${EXE}   test/standard/chap9/page136.v 
+${EXE}   test/standard/chap9/page136.v 
+echo
+echo Note: repeat event control
+echo
+echo ${EXE}   test/standard/chap9/page138.v 
+${EXE}   test/standard/chap9/page138.v 
+echo
+echo Note: event trigger
+echo
+echo ${EXE}   test/standard/chap9/page140.v
+${EXE}   test/standard/chap9/page140.v 
+echo
+echo Note: fork join and event
+echo
+echo ${EXE}   test/standard/chap9/page142.v
+${EXE}   test/standard/chap9/page142.v
+echo
+echo Note: initial and always
+echo
+echo ${EXE}   test/standard/chap9/page143.v
+${EXE}   test/standard/chap9/page143.v
+echo
+echo Note: task
+echo
+echo ${EXE}   test/standard/chap10/page148.v
+${EXE}   test/standard/chap10/page148.v
+echo
+echo Note: traffic light controller using task.
+echo
+echo ${EXE}   test/standard/chap10/page149.v
+${EXE}   test/standard/chap10/page149.v
+echo
+echo Note: disable statement, event control and if statement.
+echo
+echo ${EXE}   test/standard/chap10/page150.v
+${EXE}   test/standard/chap10/page150.v
+echo
+echo Note: function automatic integer ..
+echo
+echo ${EXE}   test/standard/chap10/page155.v
+${EXE}   test/standard/chap10/page155.v
+echo
+echo Note: localparam, function
+echo
+echo  ${EXE}   test/standard/chap10/page156.v
+ ${EXE}   test/standard/chap10/page155.v
+echo
+echo Note: multiple module instanciations, unconnected arguments.
+echo
+echo  ${EXE}   test/standard/chap11/page166.v
+${EXE}   test/standard/chap11/page166.v
+echo
+echo Note: module, parameter, localparam, casex
+echo
+echo ${EXE}   test/standard/chap12/page167.v
+${EXE}   test/standard/chap12/page167.v
+echo
+echo Note: parameter with range, defparam, real
+echo
+echo ${EXE}   test/standard/chap12/page168.v
+${EXE}   test/standard/chap12/page168.v
+echo
+echo Note: range bound defined by parameter, modified by defparam
+echo
+echo ${EXE}   test/standard/chap12/page169.v
+${EXE}   test/standard/chap12/page169.v
+echo
+echo "Note: module instanciation with parameters like #(10,15)"
+echo
+echo ${EXE}   test/standard/chap12/page170.v
+${EXE}   test/standard/chap12/page170.v
+echo
+echo "Note: module parameters arguments like #(.size(10),..)"
+echo
+echo ${EXE}   test/standard/chap12/page172.v
+${EXE}   test/standard/chap12/page172.v
+echo
+echo Note: ports declared in module body
+echo
+echo ${EXE}   test/standard/chap12/page175.v
+${EXE}   test/standard/chap12/page175.v
+echo
+echo Note: ports declared in module head
+echo Note: pretty printing complex module arguments
+echo
+echo ${EXE}   test/standard/chap12/page176.v
+${EXE}   test/standard/chap12/page176.v
+echo
+echo Note: module instanciation with parameters
+echo
+echo ${EXE}   test/standard/chap12/page177.v
+${EXE}   test/standard/chap12/page177.v
+echo
+echo Note: real number in ports connection, $realtobits, $bitstoreal.
+echo Note: single module argument
+echo
+echo ${EXE}   test/standard/chap12/page178.v
+${EXE}   test/standard/chap12/page178.v
+echo
+echo ${EXE} test/standard/chap12/page184.v  
+${EXE} test/standard/chap12/page184.v  
+echo
+echo Note: two level index, module or, generate.
+echo 
+echo ${EXE} test/standard/chap12/page185.v  
+${EXE} test/standard/chap12/page185.v  
+echo
+echo Note: multiple embedded for loop
+echo 
+echo ${EXE} test/standard/chap12/page186.v  
+${EXE} test/standard/chap12/page186.v  
+echo 
+echo Note: semicolon after else, multiple case lables, if generation.
+echo 
+echo ${EXE} test/standard/chap12/page187_ex1.v  
+${EXE} test/standard/chap12/page187_ex1.v  
+echo 
+echo Note: localparam
+echo 
+echo ${EXE} test/standard/chap12/page188_ex2.v  
+${EXE} test/standard/chap12/page188_ex2.v  
+echo
+echo Note: generate with case
+echo 
+echo ${EXE} test/standard/chap12/page188_ex3.v  
+${EXE} test/standard/chap12/page188_ex3.v  
+echo
+echo Note: dot function name and complex case labels, module parameter exp.
+echo 
+echo ${EXE} test/standard/chap12/page188_ex4.v  
+${EXE} test/standard/chap12/page188_ex4.v  
+echo
+echo Note: if generation of declarations
+echo
+echo ${EXE} test/standard/chap12/page190.v  
+${EXE} test/standard/chap12/page190.v  
+echo
+echo Note: multiple module instanciation, delay fork and begin .. end.
+echo 
+echo ${EXE} test/standard/chap12/page192.v  
+${EXE} test/standard/chap12/page192.v  
+echo
+echo Note: dot path names
+echo
+echo ${EXE}   test/standard/chap12/page193.v 
+${EXE}   test/standard/chap12/page193.v 
+echo
+echo Note: more on path name references
+echo
+echo ${EXE}   test/standard/chap12/page194.v
+${EXE}   test/standard/chap12/page194.v 
+echo
+echo Note: path name references in task
+echo
+echo ${EXE}   test/standard/chap12/page197.v
+${EXE}   test/standard/chap12/page197.v
+echo
+echo Note: defparam and path name
+echo
+echo ${EXE}   test/standard/chap12/page197.v
+${EXE}   test/standard/chap12/page197.v
+echo
+echo Note: chapter 14, specify
+echo 
+echo Note: parallel and full path in simple declaration
+echo Note: edge sensitive path
+echo
+echo ${EXE}   test/standard/chap14/page214.v
+${EXE}   test/standard/chap14/page214.v
+echo
+echo Note: state dependent path
+echo
+echo ${EXE}   test/standard/chap14/page216.v
+${EXE}   test/standard/chap14/page216.v
+echo
+echo Note: edge sensitive state dependent path
+echo Note: term descript with range not implemented
+echo Note: e.g. page218 q[3:0]data
+echo
+echo ${EXE}   test/standard/chap14/page217.v
+${EXE}   test/standard/chap14/page217.v
+echo
+echo Note: ifnone condition
+echo
+echo ${EXE}   test/standard/chap14/page218.v
+${EXE}   test/standard/chap14/page218.v
+echo
+echo Note: multiple module path in a single statement
+echo
+echo ${EXE}   test/standard/chap14/page220.v
+${EXE}   test/standard/chap14/page220.v
+echo
+echo Note: positive and negative polarity
+echo
+echo ${EXE}   test/standard/chap14/page221.v
+${EXE}   test/standard/chap14/page221.v
+echo
+echo Note: specparam colon seperated delay expression 
+echo
+echo ${EXE}   test/standard/chap14/page222.v
+${EXE}   test/standard/chap14/page222.v
+echo
+echo Note: specparam specify transitions
+echo
+echo ${EXE}   test/standard/chap14/page223.v
+${EXE}   test/standard/chap14/page223.v
+echo
+echo Note: delay selection
+echo
+echo ${EXE}   test/standard/chap14/page225.v
+${EXE}   test/standard/chap14/page225.v
+echo
+echo Note: path pulse
+echo
+echo ${EXE}   test/standard/chap14/page229.v
+${EXE}   test/standard/chap14/page229.v
+echo
+echo Note: pulsestyle, showcancelled
+echo
+echo ${EXE}   test/standard/chap14/page235.v
+${EXE}   test/standard/chap14/page235.v
+echo
+echo Note: timing check $setup, $hold
+echo
+echo ${EXE}   test/standard/chap15/page244.v
+${EXE}   test/standard/chap15/page244.v
+echo
+echo "Note: \$recovery, \$removal, \$recrem"
+echo
+echo ${EXE}   test/standard/chap15/page248.v
+${EXE}   test/standard/chap15/page248.v
+echo
+echo "Note: \$timeskew "
+echo 
+echo ${EXE}   test/standard/chap15/page251.v
+${EXE}   test/standard/chap15/page251.v
+echo
+echo "Note: \$fullskew "
+echo 
+echo ${EXE}   test/standard/chap15/page254.v
+${EXE}   test/standard/chap15/page254.v
+echo
+echo "Note: \$width "
+echo 
+echo ${EXE}   test/standard/chap15/page256.v
+${EXE}   test/standard/chap15/page256.v
+echo
+echo "Note: \$nochange "
+echo 
+echo ${EXE}   test/standard/chap15/page258.v
+${EXE}   test/standard/chap15/page258.v
+echo
+echo "Note: \$setup, \$hold, \$period, \$width, \$recovery, specparam, *>  "
+echo 
+echo ${EXE}   test/standard/chap15/page260.v
+${EXE}   test/standard/chap15/page260.v
+echo
+echo "Note: \$setup, \$hold, \$period, \$width, \$recovery, specparam, *>  "
+echo 
+echo ${EXE}   test/standard/chap15/page260.v
+${EXE}   test/standard/chap15/page260.v
+echo
+echo Note: page262.v has an example not parsed.
+echo
+echo ${EXE}   test/standard/chap15/page262.v
+${EXE}   test/standard/chap15/page262.v
+echo
+echo Note: page263.v has not been parsed.
+echo
+echo ${EXE}   test/standard/chap15/page263.v
+echo ${EXE}   test/standard/chap15/page262.v
+echo
+echo Note: vector in timing check
+echo
+echo ${EXE}   test/standard/chap15/page266.v
+${EXE}   test/standard/chap15/page266.v
+echo
+echo "Note: system function \$strobe"
+echo
+echo ${EXE}   test/standard/chap17/page286.v
+${EXE}   test/standard/chap17/page286.v
+echo
+echo "Note:  \$fopen, \$fdisplay"
+echo
+echo ${EXE}   test/standard/chap17/page289.v
+${EXE}   test/standard/chap17/page289.v
+echo
+echo "Note:  \$fgetc,\$ungetc, \$fscanf, \$sscanf, \$fread"
+echo
+echo ${EXE}   test/standard/chap17/page290.v
+${EXE}   test/standard/chap17/page290.v
+echo
+echo "Note:  \$ftell,\$fseek, \$rewind, \$fflush, \$ferror"
+echo "Note:  \$eof, \$readmemh with various number of arguments"
+echo
+echo ${EXE}   test/standard/chap17/page294.v
+${EXE}   test/standard/chap17/page294.v
+echo
+echo "Note:  \$timeformat, \$fopen, \$fmonitor, \$realtime"
+echo
+echo ${EXE}   test/standard/chap17/page301.v
+${EXE}   test/standard/chap17/page301.v
+echo
+echo "Note:  \$async\$and\$array etc., logic array"
+echo
+echo ${EXE}   test/standard/chap17/page304.v
+${EXE}   test/standard/chap17/page304.v
+echo
+echo "Note:  \$async\$and\$array, \$readmemb"
+echo
+echo ${EXE}   test/standard/chap17/page306.v
+${EXE}   test/standard/chap17/page306.v
+echo
+echo "Note:  \$q_initialize etc."
+echo
+echo ${EXE}   test/standard/chap17/page307.v
+${EXE}   test/standard/chap17/page307.v
+echo
+echo "Note:  \$time, \$realtime"
+echo
+echo ${EXE}   test/standard/chap17/page309.v
+${EXE}   test/standard/chap17/page309.v
+echo
+echo "Note:  \$realtobits, \$bitstoreal"
+echo
+echo ${EXE}   test/standard/chap17/page310.v
+${EXE}   test/standard/chap17/page310.v
+echo
+echo "Note:  \$random and {\$random}"
+echo
+echo ${EXE}   test/standard/chap17/page312.v
+${EXE}   test/standard/chap17/page312.v
+echo
+echo "Note:  \$test\$plusargs "
+echo
+echo ${EXE}   test/standard/chap17/page320.v
+${EXE}   test/standard/chap17/page320.v
+echo
+echo "Note:  \$value\$plusargs "
+echo
+echo ${EXE}   test/standard/chap17/page321.v
+${EXE}   test/standard/chap17/page321.v
+echo
+echo "Note: macro timescale and \$printtimescale"
+echo
+echo ${EXE}   test/standard/chap17/page299.v
+${EXE}   test/standard/chap17/page299.v
+echo
+echo Note: define macro with arguments
+echo
+echo ${EXE}    test/standard/chap19/page351.v
+${EXE}    test/standard/chap19/page351.v
+echo
+echo Note: define macro with two arguments
+echo
+echo ${EXE}    test/standard/chap19/page352.v
+${EXE}    test/standard/chap19/page352.v
+echo
+echo Note: macro ifdef else endif
+echo
+echo ${EXE}    test/standard/chap19/page354.v
+${EXE}    test/standard/chap19/page354.v
+echo
+echo Note: nested ifdef macros
+echo
+echo ${EXE}    test/standard/chap19/page355.v
+${EXE}    test/standard/chap19/page355.v
+echo
+echo Note: ifndef, elsif
+echo
+echo ${EXE}    test/standard/chap19/page355_ex3.v
+${EXE}    test/standard/chap19/page355_ex3.v
+echo
+echo ${EXE}    test/standard/chap19/page355_ex3a.v
+${EXE}    test/standard/chap19/page355_ex3a.v
+echo
+echo ${EXE}    test/standard/chap19/page355_ex3b.v
+${EXE}    test/standard/chap19/page355_ex3b.v
+echo
+echo ${EXE}    test/standard/chap19/page355_ex3c.v
+${EXE}    test/standard/chap19/page355_ex3c.v
+echo
+echo ${EXE}    test/standard/chap19/page355_ex3d.v
+${EXE}    test/standard/chap19/page355_ex3d.v
+echo
+echo ${EXE}    test/standard/chap19/page355_ex3e.v
+${EXE}    test/standard/chap19/page355_ex3e.v
+
